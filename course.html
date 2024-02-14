@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Graduate Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/pngwing.com.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">PROGRAMME</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+
+    <div class="text-box">
+        <h1>Our Programme</h1>
+    </div>
+    </section>
+
+    <!--- chatbot --->
+
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="chatbot">
+        <header>
+          <h2>Chatbot</h2>
+          <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span class="material-symbols-outlined">smart_toy</span>
+            <p>Hi there 👋<br>How can I help you today?</p>
+          </li>
+        </ul>
+        <div class="chat-input">
+          <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+      </div>
+
+     <!--- course --->
+
+     <section class="course">
+        <h1> Programme We Offer </h1>
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>CS 707</h3>
+                <p class="course-p">Master of Computer Science program is offered on a full time and part time basis to accommodate both fresh graduates and working professionals.It offers a curriculum that emphasizes the fundamentals in computing as well as its various applications.The emergence of new technologies in computing demands computer professionals to be well-versed in the related areas of computer science such as software engineering, database, multimedia, networking, data communication, security, and artificial intelligence. Thus, the Master of Computer Science program in UiTM is designed to further strengthen both theoretical and practical aspects of computer science.</p>
+                <br>
+                <a href="https://fskm.uitm.edu.my/v5/index.php/en/programme/postgraduate/46-master-of-computer-science-cs707" target="_blank" class="hero-btn-course">View More</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <h3>CS 708</h3>
+                <p class="course-p">The program is aimed at professionals working in the field of computer networking technologies, who wish to further their education, gain a higher academic qualification and enhance their career prospects. The program offers an education based on key concept and advanced principles required to analyze, design, develop and manage future networking systems and understand current and future technologies.At the end of the program students are expected to develop professional attitudes and technical skills necessary to progress in the rapidly evolving field of networking technologies.</p>
+                <br>
+                <a href="https://fskm.uitm.edu.my/v5/index.php/en/programme/postgraduate/45-master-of-science-in-computer-networking" target="_blank" class="hero-btn-course">View More</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <h3>CS 709</h3>
+                <p class="course-p">The program is aimed at professionals working in the field of cybersecurity and digital forensic, who wish to further their education, gain a higher academic qualification and enhance their career prospects. The program offers an education based on key concept and advanced principles required to analyse, design, develop and secure organizational systems and understand current and future technologies.  At the end of the program students are expected to develop professional attitudes and technical skills necessary to progress in the rapidly evolving field of cybersecurity and digital forensics.</p>
+                <br>
+                <a href="https://fskm.uitm.edu.my/v5/index.php/en/programme/postgraduate/111-master-of-science-in-cybersecurity-and-digital-forensics-cs709" target="_blank" class="hero-btn-course">View More</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <h3>CS 770</h3>
+                <p class="course-p">We offer an exciting portfolio that is multidisciplinary in nature. The programme is designed to provide theoretical grounding, practical knowledge and hands-on experience responding to the demands of private and public organizations for qualified IT professional. The programme facilitates a friendly and supporting learning environment where students would grasp IT concepts, theories and practices. The programme aims for students who are dynamic, creative and innovative and this is reflected through the teaching methods and content. They mirror the dynamic nature of technological advances in society today. As a student you will have the opportunity to explore a variety of areas including: problem solving skills, data technology and security, human computer interaction, strategic and innovative planning, human factors, user experience and ethical issues.</p>
+                <br>
+                <a href="https://fskm.uitm.edu.my/v5/index.php/en/programme/postgraduate/57-master-of-science-in-information-technology" target="_blank" class="hero-btn-course">View More</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <h3>CS 779</h3>
+                <p class="course-p">The Master of Data Science is a three-semester program giving in-depth knowledge of data-driven science which is an interdisciplinary field about scientific methods, processes, and systems to extract knowledge or insights from data in various forms, either structured or unstructured. The program aims to produce data professionals who are passionate about drawing meaningful insights from data using data science approach. The program is designed to provide you good analytical and programming skills to use data science from data storage, data analytics to practical applications with the aim of improving business or organization performance.</p>
+                <br>
+                <a href="https://fskm.uitm.edu.my/v5/index.php/en/programme/postgraduate/60-master-of-data-science" target="_blank" class="hero-btn-course">View More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- js for toggle menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";    
+    }
+
+</script>
+    
+</body>
+</html>
