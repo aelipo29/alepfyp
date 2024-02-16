@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chatbot with Gemini Pro</title>
+		<style>
+			.chat-container {
+				width: 500px;
+				margin: 50px auto;
+				display: flex;
+				flex-direction: column;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+			}
+
+			.chat-history {
+				padding: 20px;
+				overflow-y: scroll;
+				height: 300px;
+			}
+
+			.chat-input-container {
+				display: flex;
+				align-items: center;
+				padding: 10px;
+			}
+
+			#chat-input {
+				flex: 1;
+				padding: 10px;
+				border: 1px solid #ccc;
+				border-radius: 3px;
+			}
+
+			#send-button {
+				padding: 10px 20px;
+				background-color: #b521c9;
+				color: white;
+				border: none;
+				border-radius: 3px;
+				cursor: pointer;
+			}
+		</style>
+		<script type="module" src="./chat.js"></script>
+	</head>
+	<body>
+		<div class="chat-container">
+			<div class="chat-history"></div>
+			<div class="chat-input-container">
+				<input type="text" id="chat-input" placeholder="Type your message..." />
+				<button id="send-button">Send</button>
+			</div>
+		</div>
+	</body>
+</html>
